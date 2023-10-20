@@ -1,0 +1,52 @@
+@import url('reset.css');
+
+
+.banner  {
+
+    width: 1440px;
+    height: 605px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+  
+    
+}
+
+.banner .bannercontent{
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo{
+    width: 214;
+    height: 248;
+}
+.logo img{
+  background-color: blue;
+  
+  margin: auto;
+ 
+  object-fit: contain;
+
+}  
+h1{
+    text-align: center;
+    font-weight:bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #33A8DB;
+    letter-spacing: 4px; /*  espaçamento entre as letras*/
+    margin-bottom: 24px;
+} 
+p {
+    color: white;
+}
+section {
+    margin: 100px auto;
+  }
